@@ -20,17 +20,12 @@
     }
 }
 @media screen and ((min-width:1px) and (max-width: 600px)){
-    /* .section_3{
-        width: auto;
-        height: 30vh;
-        padding: 10px;
-    } */
+    
     .section_3-content{
         padding:0 0 0 40px !important;
     }
     .section_3 button{
-        padding: 0px 4px !important;
-        width: 120px;
+        padding: 0px 12px !important;
         height: 50px;
     }
     .section_4{
