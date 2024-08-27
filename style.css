@@ -7,6 +7,9 @@
         position: sticky ;
         top: 0;
     }
+    .mobile_view{
+        padding: 0px 20px !important;
+    }
     .section_3-content{
         padding-left: 30px !important;
     }
@@ -20,6 +23,11 @@
     }
 }
 @media screen and ((min-width:1px) and (max-width: 600px)){
+    /* .section_3{
+        width: auto;
+        height: 30vh;
+        padding: 10px;
+    } */
     .section_3{
         height: 50vh !important;
     }
@@ -27,7 +35,7 @@
         padding:0 0 0 40px !important;
     }
     .section_3 button{
-        padding: 0px 12px !important;
+        padding: 0px 4px !important;
         height: 50px;
     }
     .section_4{
@@ -75,15 +83,11 @@ a{
 a:hover{
     font-weight: bold;
 }
-
-.mobile_view{
-    padding: 0 20px;
-}
 .navbar-collapse{
     justify-content: end;
 }
-ul.navbar-nav{
-    column-gap: 40px;
+.section_2 ul li{
+    min-width: 100px;
 }
 .section_3{
     background-image: url('./pool_area.jpg');
