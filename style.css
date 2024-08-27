@@ -93,6 +93,7 @@ ul.navbar-nav{
     height: 85vh;
     background-size: cover;
     border-radius: 8px;
+    margin: 10px
 }
 .section_3-content{
     display: flex;
