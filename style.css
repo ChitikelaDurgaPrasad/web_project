@@ -20,6 +20,11 @@
     }
 }
 @media screen and ((min-width:1px) and (max-width: 600px)){
+    .section_3{
+        width: auto;
+        height: 30vh;
+        padding: 10px;
+    }
     .section_3-content{
         padding:0 0 0 40px !important;
     }
