@@ -20,11 +20,11 @@
     }
 }
 @media screen and ((min-width:1px) and (max-width: 600px)){
-    .section_3{
+    /* .section_3{
         width: auto;
         height: 30vh;
         padding: 10px;
-    }
+    } */
     .section_3-content{
         padding:0 0 0 40px !important;
     }
@@ -93,7 +93,7 @@ ul.navbar-nav{
     height: 85vh;
     background-size: cover;
     border-radius: 8px;
-    margin: 10px
+    margin: 10px;
 }
 .section_3-content{
     display: flex;
